@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Layout Responsivo</title>
+
+    <style>
+   @media screen and (max-width: 700px){
+    .sidebar,.content,.content-inner{
+        float: none;
+        width: 100%;
+        margin-right: 0%;
+    }
+   }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="menu">
+            <ul>
+                <li> <a href="#"> menu </a> </li>
+                <li> <a href="#"> menu </a> </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-inner">
+                Conteúdo
+            </div>
+
+        </div>
+        <div class="sidebar">
+            Barra lateral
+        </div>
+
+        <br style="clear:both">
+
+        <div class="footer">
+            Rodapé
+        </div>
+    </div>
+</body>
+
+</html>
